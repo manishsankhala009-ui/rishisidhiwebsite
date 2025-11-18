@@ -1,4 +1,16 @@
-body {}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #d9e4f5 0%,
+    #e8eefb 40%,
+    #f1f7ff 70%,
+    #e3f0ff 100%
+  );
+  background-attachment: fixed;
+}
 /* ---------- GLOBAL STYLING ---------- */
 
 body {
