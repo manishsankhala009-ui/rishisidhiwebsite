@@ -1,1 +1,168 @@
 body {}
+/* ---------- GLOBAL STYLING ---------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d9e4f5, #f8f9fc, #e3f0ff);
+    background-attachment: fixed;
+}
+
+/* ---------- NAVBAR ---------- */
+
+nav {
+    background: #1e3a8a;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #cbd5e1;
+}
+
+/* ---------- HEADER / BANNER ---------- */
+
+.header {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(255,255,255,0.3);
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 90%;
+    backdrop-filter: blur(6px);
+}
+
+.header h1 {
+    color: #1e3a8a;
+    font-size: 45px;
+}
+
+.header p {
+    color: #334155;
+    font-size: 18px;
+}
+
+/* ---------- BUTTON ---------- */
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    font-size: 18px;
+    background: #1e3a8a;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #274bba;
+}
+
+/* ---------- SECTION BOXES ---------- */
+
+.section {
+    background: white;
+    padding: 25px;
+    width: 90%;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+/* ---------- SERVICES GRID ---------- */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.service-box {
+    padding: 20px;
+    background: #f1f5f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.service-box h3 {
+    color: #1e3a8a;
+}
+
+/* ---------- PROJECTS GRID ---------- */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.project-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ---------- TEAM BOX ---------- */
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.team-box {
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* ---------- CONTACT FORM ---------- */
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px 18px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 32px;
+    }
+}
